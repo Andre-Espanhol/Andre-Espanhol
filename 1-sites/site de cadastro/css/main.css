@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #eeeeee;
+    }
+    
+    ul {
+        padding: 0px!important; 
+    }
+
+    .menu-principal {
+        width: 100%;
+        background-color: #23232e;
+        height: 60px;
+    }
+
+    main, .content {
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+    }
+
+    .logo {
+        float: left;
+        padding: 1px;
+        margin: 0;
+        width: 18vh;
+    }
+
+    .logo img {
+        padding: 0;
+        margin: 0;
+        width: 45px;
+        height: 55px;
+    }
+
+    .busca {
+        display: inline-block;
+        text-align: center;
+        width: 40vh;
+        height: 50px;
+    }
+
+    .busca input {
+        background-image: url(../imagens/icone-lupa.png);
+        background-repeat: no-repeat;
+        height: 30px;
+        margin-left: -3vh;
+        padding-top: 5px;
+        padding-right: 4px;
+        padding-bottom: 5px;
+        padding-left: 42px;
+        width: 75vh;
+        margin-top: 8px;
+        background-position: 2.5%;
+        border: 1px solid #d6d6d6;
+    }
+
+    .redes-sociais ul li {
+        margin-top: -2%;
+        margin-left: 20px;
+        display: inline-block;
+        list-style: none;
+
+    }
+    
+    .redes-sociais {
+        margin-top: 2.8vh;
+        width: 22%;
+        float: right;
+    }
+
+    .header-2 {
+        font-family: 'open sans',sans-serif;
+        background-color: #eeeeee;
+        width: 842px;
+        margin: 0 auto;
+        padding: 2.4vh;
+    }
+
+    .menu-urls {
+        height: 8vh;
+        border-bottom: 3px solid #efefef;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        margin-left: 29px;
+        height: 36px;
+    }
+    
+    .menu ul li:hover {
+        border-bottom: 3px solid #00bac6;
+    }
+    
+    .menu ul li a:hover {
+        color: #00bac6;
+        
+    }
+    
+    .menu ul li a {
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .menu {
+        width: 70%;
+        float: left;
+    }
+   
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+
+    .slider-principal img {
+        height: 248px;
+    }
+
+    button.slick-prev {
+        cursor: pointer;
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background: transparent;
+        color: white;
+        position: absolute;
+        background-image: url(../imagens/slider/anterior.png);
+        top: 40%;
+        left: 1%;
+    }
+
+    button.slick-next {
+        cursor: pointer;
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background: transparent;
+        color: white;
+        position: absolute;
+        background-image: url(../imagens/slider/proximo.png);
+        top: 40%;
+        right: 1%;
+    }
+
+    .slick-list {
+        width: 100%!important;
+    }
+
+    .slick-initialized {
+        overflow: hidden;
+    }
+
+    .slick-dots li button {
+        display: inline-block;
+        font-size: 0px;
+        border: 3px solid #dddddd;
+        width: 13px;
+        height: 13px;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .slick-dots {
+        margin: 0 auto;
+        width: 9.5%;
+        position: absolute;
+        left: 44%;
+        top: 220px;
+    }
+
+    li.slick-active button {
+        background: #00bac6;
+    }
+    
+    .slick-dots li {
+        padding-left: 10px;
+        display: inline-block;
+    }
+
+    .barra-informaçoes {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: inline-block;
+        top: 25px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 184vh;
+        height: 12vh;
+        background-color: #ffffff;
+        border: 1px solid #8b8b8b;
+        border-radius: 5px;
+    }
+
+    .barra {
+        margin: 0;
+        padding: 2.7vh;
+        position: initial;
+        display: inline-block;
+    }
+
+    .item-1 ul li {
+        margin: 0;
+        padding: 0;
+        font-family: 'open sans', sans-serif;
+        list-style-type: none;
+        display: inline-block;
+        width: 230px;
+        margin-left: 6vh;
+        margin-right: 5px;
+        
+    }
+
+    div .item-1 ul li img.safe-buy {
+        position: relative;
+        top: 0.5vh;
+        
+    }
+
+    div .item-1 ul li img.cartao {
+        position: relative;
+        top: 0.36vh;
+        left: 4.5vh;
+    }
+
+    div .item-1 ul li img.garantia {
+        position: relative;
+        top: 0.5vh;
+        left: 5vh;
+        
+    }
+
+    div .item-1 ul li img.delivery {
+        position: relative;
+        top: 0.5vh;
+        left: 7.5vh;
+        
+    }    
+
+    div .item-1 ul li span.anatel {
+        position: relative;
+        width: 230px;
+        bottom: 1.5vh;
+        
+    }
+
+    div .item-1 ul li span.sem-juros {
+        position: relative;
+        width: 230px;
+        left: 4.5vh;
+        bottom: 1.5vh;
+        
+    }
+
+    div .item-1 ul li span.garantia {
+        position: relative;
+        width: 230px;
+        bottom: 1.5vh;
+        left: 5vh;
+        
+    }
+
+    div .item-1 ul li span.frete {
+        position: relative;
+        width: 230px;
+        left: 7.5vh;
+        bottom: 1.5vh;
+        
+    }
+
+    .main-title {
+        font-family: 'open sans',sans-serif;
+        font-size: 12px;
+        top: 8vh;
+        position: relative;
+        display: inline-block;
+        top: 78px;
+        left: 34.3%;
+    }
+
+    div .line {
+        position: absolute;
+        top: 2.8vh;
+        left: 67vh;
+        content: '';
+        height: 0.1px;
+        width: 56.7vh;
+        border: 0.5px solid #23232e;
+        background-color: #23232e;
+    }
+
+    div .line-2 {
+        position: absolute;
+        top: 2.6vh;
+        right: 67vh;
+        content: '';
+        height: 0.1px;
+        width: 57vh;
+        border: 0.5px solid #23232e;
+        background-color: #23232e;
+    }
+
+    .img-compra {
+        margin: 0;
+        padding: 0;
+        width: 555px;
+        height: 320px;
+        position: relative;
+        text-align: left;
+        margin-left: 10.8vh;
+        top: 20vh;
+    }
+
+    div .produtos {
+        background-color: #00bac6;
+    }

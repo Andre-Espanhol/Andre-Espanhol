@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    border: none;
+    margin: 10px;
+    font-family: arial, sans-serif;
+}
+
+#titulo {
+    padding-top: 16px;
+    color: #6666CC;
+}
+
+#titulo2 {
+    color: #9999FF;
+}
+
+#dados {
+    color: #808080;
+    font-family: verdana, sans-serif;
+}
+
+.subtitulos {
+    color: #6666CC;
+    display: inline-flex;
+}
+
+.paragrafos2 
+    
+
+.paragrafos {
+    display: inline-flex;
+}
+
+#image {
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+
+
+#leiaMais {
+    color: #FF0000;
+    text-decoration: underline;
+    display: inline-block;
+}

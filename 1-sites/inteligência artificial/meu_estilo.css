@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#topo{
+    height: 10px;
+    background-color:rgb(105, 115, 130);
+}
+
+
+#menu ul{
+    background-color: rgba(75,0,130,0.9);
+
+}
+
+#menu ul li{
+    display: inline-table;
+    padding: 20px  30px;
+    cursor: pointer;
+}
+
+#menu ul li:hover{
+    background-color:rgba(75,0,130,0.5);
+    
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: ivory;
+}
+
+#texto{
+    background-color: rgba(75, 85, 95);
+    padding: 30px;
+    font-style: arial;
+    text-align: justify ;
+}
+
+#conteudo{
+    background-color: rgb(75, 85, 95);
+    min-height: 100px;
+}
+
+#img{
+    background-color: rgba(105, 115, 130);
+    
+    
+}
+
+#title{
+    background-color: rgba(105, 115, 130);
+    font-size: 30px;
+    
+}
+
+#texto2{
+    background-color: rgb(75, 85, 95);
+    padding-left: 120px;
+}
+
+#img2{
+    background-color: rgb(75, 85, 95);
+    
+}
